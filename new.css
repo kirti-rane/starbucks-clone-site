@@ -1,0 +1,214 @@
+#empty{
+    height: 10px;
+    width:cover;
+    background-color:rgb(11, 109, 11);
+}
+.flex{
+    display:flex;
+    overflow: scroll;
+}
+.img {
+    
+    margin-right:35%;
+
+}
+.links{
+    background-color:white;
+    z-index:9;
+    margin-left:150px;
+   
+    display:flex;
+}
+.links a{
+    text-decoration:none;
+    font-size: 20px ;
+    color:black;
+    font-weight:bolder;
+    margin-top:10px;
+    padding: 10px;
+   
+}
+.links a:hover{
+    color:purple;
+}
+
+
+.mid{
+    margin-top:10px;
+    margin-left: 30%;
+    margin-bottom: 10px;
+}
+
+
+.moto{
+    text-align:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size:50px;
+}
+
+.order span{
+   
+    margin-left:45%;
+    margin-right :10%;
+    /* margin-top :200px;    */
+    align-items:center;
+    padding:10px;
+    /* background-color:rgb(4, 97, 4); */
+}
+.order .btn a{
+    text-decoration:none;
+    color:black;
+    background-color:rgb(4, 117, 4);
+    padding:10px;
+    border:2px solid black;
+    border-radius:10px;
+    
+}
+.order .btn a:hover
+{
+    color:white;
+    background-color:burlywood;
+}
+
+.menu h2{
+    text-align:center;
+    font-size:40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:gainsboro;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+.menu .one{
+    display:flex;
+    height: 25em;
+    width:25em;
+}
+.menu .two{
+    margin-left:20px;
+    margin-right:20px;
+    border: 1px solid green;
+}
+.menu .item{
+    display:flex;
+    width: 40%;
+    height:40%;
+
+}
+.menu .description{
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom:10px;
+    /* margin-left:10px; */
+    font-size:medium;
+
+}
+.menu .two:hover{
+    box-shadow: 0px 3px 65px 0px grey;
+}
+.menu .one .two a{
+    text-decoration:none;
+    background-color: rgb(110, 196, 110);
+    color:black;
+    border:2px solid black;
+    border-radius:3px;
+    padding: 7px;
+}
+
+.menu .one .two a:hover{
+
+    background-color:brown;
+    color:white;
+    
+}
+.explore a{
+    text-decoration: none;
+    color:black;
+    background-color:goldenrod;
+    padding:10px;
+    margin-left:45%;
+    border-radius: 15px;
+    border: 2px solid black;
+    
+}
+.explore a:hover{
+    background-color:mediumaquamarine;
+    color:white;
+    border: 2px solid green;
+    
+}
+.key_highlights h1{
+
+    text-align:center;
+    background-color:beige;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+.key_highlights img{
+    height: 50%;
+    width: 80%;
+    float: right;
+}
+
+.key_highlights .key_container li{
+    list-style:none;
+    line-height:50px;
+    font-size: 20px;
+    border-left: 4px solid yellowgreen;
+    border-radius: 5px;
+    background-color:peachpuff;
+    margin-right: 500px;
+}
+.testi h2{
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:gainsboro;
+    margin-bottom: 40px;
+}
+.testi .testi_container {
+     margin-top:20px;
+     margin-bottom:20px;
+}
+.testi .testi_container img{
+    /* margin-left:120px; */
+    width : 30%;
+    height: 30%;
+    text-align: center;
+    border-radius:50%;
+}
+.testi .testi_container .carousel-caption{
+    list-style:none;
+    color: black;
+}
+
+footer{
+    background-color:#BDBDBD;
+}
+
+.footer_logo
+{
+    /* float:right; */
+    margin-left: 46% ;
+}
+.pages
+{
+    text-align:center;
+}
+.pages a{
+    margin-right:7px;
+}
+.doc{
+    text-align:center;
+}
+.doc a{
+    margin-right:7px;
+}
+.social{
+    text-align:center;
+}
+.contact{
+    text-align:center;
+}
+p{
+    text-align:center;
+}
